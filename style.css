@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital@0;1&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -10,12 +13,18 @@ body {
     color: #f6f6f6;
 }
 
+p {
+    font-family: "Genos", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .titulo-destaque {
     color: #22d4fd;
 }
 
 .apresentacao {
-    margin: 15% 25%;
+    margin: 10% 25%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,10 +38,12 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-size: 48px;
 }
 
 .apresentacao__conteudo__subtitulo {
+    font-family: "Bruno Ace SC", sans-serif;
     font-size: 24px;
 }
 
